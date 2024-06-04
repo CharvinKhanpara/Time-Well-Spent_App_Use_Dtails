@@ -1,0 +1,75 @@
+name: twsapp
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  device_apps: ^2.2.0
+  usage_stats: ^1.2.0
+  intl: ^0.17.0
+  google_generative_ai: ^0.4.2  # Add this line for the chatbot
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/iconn.png"
+  adaptive_icon_background: "#000000"
+
+flutter:
+  uses-material-design: true
+
+
+
+
+
+
+
+# name: twsapp
+# description: "A new Flutter project."
+# publish_to: 'none'
+
+# version: 1.0.0+1
+
+# environment:
+#   sdk: '>=3.3.1 <4.0.0'
+
+# dependencies:
+#   flutter:
+#     sdk: flutter
+#   cupertino_icons: ^1.0.6
+#   device_apps: ^2.2.0
+#   usage_stats: ^1.2.0
+#   intl:
+
+# dev_dependencies:
+#   flutter_test:
+#     sdk: flutter
+#   flutter_lints: ^3.0.0
+#   flutter_launcher_icons: "^0.13.1"
+
+# flutter_launcher_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/images/iconn.png"
+#   adaptive_icon_background: "#000000"
+
+
+# flutter:
+#   uses-material-design: true
+
+
+
